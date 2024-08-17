@@ -1,4 +1,5 @@
 # Projeto 2 - Estudo de Caso: Análise e Proposta de Melhoria do Apache OFBiz
+Projeto 2   RA: Nome Completo, RA2: 2503514, Leandro Henrique Oliveira Neves
 
 ## 1. Introdução
 Este projeto faz parte da disciplina de Arquitetura de software ministrada pelo professor Diego Addan, onde o objetivo é realizar um estudo de caso, documentação, e mapeamento de requisitos e processos de um sistema existente. O sistema escolhido para esta análise é o **Apache OFBiz**, um sistema de gestão empresarial (ERP) open source, modular e altamente escalável.
@@ -64,5 +65,33 @@ O Apache OFBiz foi escolhido devido à sua ampla utilização, documentação ro
 #### 2.2.10 Marketing
 - **Descrição:** Módulo de suporte a campanhas de marketing e gestão de leads, integrado aos outros módulos do sistema.
 
-#### informações estas que foram retiradas direto da documentação no site oficial: https://nightlies.apache.org/ofbiz/trunk/ofbiz/html5/user-manual.html#CORE_APPLICATION_COMPONENTS
+### 2.3 Frameworks do Sistema
+
+#### 2.3.1 MVC
+- **Descrição:** Apache OFBiz utiliza o classíco frameworkd web MVC (Model View Controller), desginado para requisições básicas de rotas web.
+
+#### 2.3.2 SOA
+- **Descrição:** O sistema foi desenvolvido especialmente ao redor do SOA (Service Oriented Architeture), onde os serviços são unidades lógicas de negócio, obtendo a entrada de valores e devolvendo outros valores.
+
+#### 2.3.3 Componentes do framework
+- **Descrição:** Todos os arquivos principais de cada componente estão inclusos no arquivo developer-manual.adoc (excendendo-se às webtools, que estão inclusas em user-manuel.adoc).
+
+## 3. Escalabilidade e Performace
+
+### 3.1 Web Load
+
+#### 3.1.1 Lidar com o carregamento Web
+- **Descrição:** O OFBiz pode ser balanceado e acelerado em diferentes pontos entre o usuário e a database. Pode ser Feito através do cliente HTML, Como Edge Router (rota de borda, em tradução livre), 
+Acelerador IP, HTTP Server - Apache, Servlet Engine - Tomcat e RDBMS.
+
+#### 3.1.2 Escalabilidade X Performace
+- **Descrição:** Os componentes do OFBiz são projetados tendo como foco a escalabilidade, até em momentos em que há de se decidir entre performace e escalabidade, em geral, a escalabilidade é preferida.
+No entanto, se não houver nenhum problema de escalabilidade ou esta não for o foco, pode se focar no desempenho.
+
+#### 3.1.2 Escalabilidade X Manutenibilidade
+- **Descrição:** Algumas vezes, o design dos projetos podem afetar ou a capacidade de manutenção, ou o desempenho. Nestes casos rotineiros, a capacidade de manutenção tende a ser mais forte e mais escolhida.
+Vale ressaltar que, em casos em que determinado design causa uma redução irracional no desempenho, a otimização pode ser feita posteriormente, para ajustar o aplicativo a fim de diminuir o impacto na 
+manutenabilidade.
+
+#### informações estas que foram retiradas direto da documentação no site oficial: https://nightlies.apache.org/ofbiz/trunk/ofbiz/html5/user-manual.html#CORE_APPLICATION_COMPONENTS, https://nightlies.apache.org/ofbiz/trunk/ofbiz/html5/user-manual.html, https://cwiki.apache.org/confluence/display/OFBIZ/Scaling+and+Performance+Plan
 
