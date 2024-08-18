@@ -1,5 +1,5 @@
 # Projeto 2 - Estudo de Caso: Análise e Proposta de Melhoria do Apache OFBiz
-### Projeto 2   RA:2503581, Victor Hugo Fávaro Moreira, RA2: 2503514, Leandro Henrique Oliveira Neves
+### RA:2503581, Victor Hugo Fávaro Moreira, RA2: 2503514, Leandro Henrique Oliveira Neves
 
 ## 1. Introdução
 Este projeto faz parte da disciplina de Arquitetura de software ministrada pelo professor Diego Addan, onde o objetivo é realizar um estudo de caso, documentação, e mapeamento de requisitos e processos de um sistema existente. O sistema escolhido para esta análise é o **Apache OFBiz**, um sistema de gestão empresarial (ERP) open source, modular e altamente escalável.
