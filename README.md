@@ -93,5 +93,14 @@ No entanto, se não houver nenhum problema de escalabilidade ou esta não for o 
 Vale ressaltar que, em casos em que determinado design causa uma redução irracional no desempenho, a otimização pode ser feita posteriormente, para ajustar o aplicativo a fim de diminuir o impacto na 
 manutenabilidade.
 
+## 4. Propostas de melhorias:
+
+### 4.1 Modernizar a interface (Front-end)
+
+- **Como é feito:** Atualmente o front-end do Apache OFBiz utiliza tecnologias como FreeMarker(Motor de templates para gerar páginas HTML dinâmicas), jQuery(Lib de JS que facilita a manipulação de DOM) e JavaScript e CSS.
+- **Proposta:** Atualizar a interface de usuário utilizando frameworks modernos como React, para melhorar a experiência do usuários, tornando a interface mais agradável de utilizar. Como o Apache OFBiz é uma arquitetura orientada a serviços, ele tem essa possibilidade de integrar com front-ends desenvolvidos utilizando essa tecnologia.
+- **Base de consulta:** https://www.objective.com.br/insights/modernizacao-de-sistemas-legados/
+
+
 #### informações estas que foram retiradas direto da documentação no site oficial: https://nightlies.apache.org/ofbiz/trunk/ofbiz/html5/user-manual.html#CORE_APPLICATION_COMPONENTS, https://nightlies.apache.org/ofbiz/trunk/ofbiz/html5/user-manual.html, https://cwiki.apache.org/confluence/display/OFBIZ/Scaling+and+Performance+Plan
 
