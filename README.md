@@ -96,10 +96,21 @@ manutenabilidade.
 
 ## 4. Propostas de melhorias:
 
-### 4.1 Modernizar a interface (Front-end)
+### 4.1 Modernizar a Interface (Front-end) com Virtualização
 
-- **Como é feito:** Atualmente o front-end do Apache OFBiz utiliza tecnologias como FreeMarker(Motor de templates para gerar páginas HTML dinâmicas), jQuery(Lib de JS que facilita a manipulação de DOM) e JavaScript e CSS.
-- **Proposta:** Atualizar a interface de usuário utilizando frameworks modernos como React, para melhorar a experiência do usuários, tornando a interface mais agradável de utilizar. Como o Apache OFBiz é uma arquitetura orientada a serviços, ele tem essa possibilidade de integrar com front-ends desenvolvidos utilizando essa tecnologia.
+- **Como é feito:** O front-end do Apache OFBiz utiliza tecnologias como FreeMarker (um motor de templates para gerar páginas HTML dinâmicas), jQuery (uma biblioteca JavaScript que facilita a manipulação do DOM) e CSS. A interface, embora funcional, pode parecer desatualizada em termos de experiência do usuário e design moderno.
+  
+- **Proposta:**  Modernizar a interface de usuário utilizando frameworks modernos como React.js, que permitem a criação de interfaces mais dinâmicas e responsivas. Além disso, incorporar a virtualização no front-end pode otimizar o carregamento e a renderização de grandes conjuntos de dados, algo comum em sistemas ERP.
+  
+- **Justificativa:**
+-     Virtualização de Listas e Componentes: Em um sistema ERP modular como o Apache OFBiz, a interface muitas vezes precisa lidar com grandes volumes de dados, como listas de produtos, pedidos, ou clientes. A virtualização permite que apenas os elementos visíveis na tela sejam renderizados, carregando os demais conforme o usuário navega. Isso melhora significativamente a performance da aplicação, reduzindo o consumo de memória e tempo de processamento.
+-     Integração Modular: Como o Apache OFBiz é baseado em uma arquitetura orientada a serviços (SOA), é possível integrar o novo front-end virtualizado de forma gradual, módulo por módulo. Isso permite a coexistência do novo e do antigo front-end durante a transição, minimizando o impacto nos usuários.
+
+- **Beneficios**
+-     Performance Aprimorada: A virtualização reduz a carga do navegador ao lidar com grandes volumes de dados, tornando a interface mais ágil.
+-     Experiência do Usuário (UX) Melhorada: Com uma interface moderna e responsiva, a navegação e a interação do usuário com o sistema tornam-se mais intuitivas e agradáveis.
+-     Escalabilidade: A modularidade e a virtualização no front-end permitem que a interface do Apache OFBiz escale eficientemente com o crescimento do sistema e do volume de dados.
+  
 - **Base de consulta:** https://www.objective.com.br/insights/modernizacao-de-sistemas-legados/
 
 ### 4.2 Modernização da documentação
