@@ -102,6 +102,17 @@ manutenabilidade.
 - **Proposta:** Atualizar a interface de usuário utilizando frameworks modernos como React, para melhorar a experiência do usuários, tornando a interface mais agradável de utilizar. Como o Apache OFBiz é uma arquitetura orientada a serviços, ele tem essa possibilidade de integrar com front-ends desenvolvidos utilizando essa tecnologia.
 - **Base de consulta:** https://www.objective.com.br/insights/modernizacao-de-sistemas-legados/
 
+### 4.2 Modernização da documentação
+
+- **Como é feito**: De modo prático, a explicação documentada é demasiada teórica e sem exemplos práticos e visuais do framework em ação.
+- **Proposta**: Atualização da organização do site, de forma a ser mais clara e com exemplos práticos de utilização do framework, a fim de afunilar o tempo de busca de determinadas informações, omitidas por tópicos maiores.
+
+### 4.3 Suporte nativo à microsserviços
+
+- **Como é feito**: Por ser desenvolvido em SOA, a arquitetura do Apache é monolítica, ou seja, não é dividida em serviços independentes. Com isso também, seus módulos possuem interdependências de uns aos outros, causando uma dificuldade em sua separação.
+- **Proposta**: Separação do código em diferentes grupos, a fim de terem claras interfaces de comunicação e criação de APIs RESTfull, a fim de abranger ainda mais a integração de seus serviços.
+- **Base de consulta:** https://aws.amazon.com/pt/compare/the-difference-between-monolithic-and-microservices-architecture/
+
 
 #### informações estas que foram retiradas direto da documentação no site oficial: https://nightlies.apache.org/ofbiz/trunk/ofbiz/html5/user-manual.html#CORE_APPLICATION_COMPONENTS, https://nightlies.apache.org/ofbiz/trunk/ofbiz/html5/user-manual.html, https://cwiki.apache.org/confluence/display/OFBIZ/Scaling+and+Performance+Plan
 
