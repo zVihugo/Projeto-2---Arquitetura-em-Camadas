@@ -130,6 +130,9 @@ manutenabilidade.
 ### 5.1 Diagrama de atividades: Para a geração deste diagrama, foi escolhida o processo de geração de ordem de compra, que ocorre no backend
 ![Imagem do WhatsApp de 2024-08-21 à(s) 20 54 55_7de9bd83](https://github.com/user-attachments/assets/25ec7394-31f8-4699-9d43-bca56946adab)  
 
+### 5.2 Diagrama de classe: Diagrama de classes, que envolve a classe que efetivamente gerencia os processos de compra!
+Link para o repositório do arquivo utilizado: https://github.com/apache/ofbiz/blob/trunk/applications/accounting/src/main/java/org/apache/ofbiz/accounting/invoice/InvoiceWorker.java
+![Imagem do diagrama de classe](https://prnt.sc/z_NUbR9efnrY)
 
 #### informações estas que foram retiradas direto da documentação no site oficial: https://nightlies.apache.org/ofbiz/trunk/ofbiz/html5/user-manual.html#CORE_APPLICATION_COMPONENTS, https://nightlies.apache.org/ofbiz/trunk/ofbiz/html5/user-manual.html, https://cwiki.apache.org/confluence/display/OFBIZ/Scaling+and+Performance+Plan
 
