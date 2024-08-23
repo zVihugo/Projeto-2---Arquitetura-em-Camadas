@@ -131,8 +131,11 @@ manutenabilidade.
 ![Imagem do WhatsApp de 2024-08-21 à(s) 20 54 55_7de9bd83](https://github.com/user-attachments/assets/25ec7394-31f8-4699-9d43-bca56946adab)  
 
 ### 5.2 Diagrama de classe: Diagrama de classes, que envolve a classe que efetivamente gerencia os processos de compra!
+
+<div>
+  <img src="https://www.plantuml.com/plantuml/png/jLNDRjD04BxxALO-KKWFvMX5KVEZHf6WH2I2yx2UkgkkTzpTSOKLzO5u3buC6oTud0HBGU8IsTz-FxEpiyvjOF1SvZOgG3z1XYfUkHSo6jLNya_eOxMB8cqX1BLVQ74r7ZyO1tOogGbAlSkGz-jROh1lKhIO0PDFrEBmE5AcfQpIH6tO6vUD56WkmSvBxz7fAb4p8elWhkedaorGcnniFs35cBSXfWCIjKI7tkWlO4iyfzx2T_XcKPfKHLrAE5lhLJ-p5lSY1-Eay9ukbywCjLjQW-VghoBvAcHtdlABXHjqwQL2kSTfcdeCOLOr3Jsl7obDZa7pHzIFwz8N5B1cYqaOJBWddXQ5DPZ-py6wF29yUbW0uzRacAZcDp3anRyEzSNvOlut-Doj3EGSQfgJUq4V3BdFm3WSEMWiRiYigd-c9JykaQOk7HgdwFNegx9ht4xo9CYOXqHzC877ecSJuTIXmarqHvX2JgNZuzqyb-3OS7MCS_lfkBEG_JdBBdSDLOwk7L0DRCZjkeZzcKf7gVHSjUJs2lMBRC7ccaWqi4VacrFelOHqimtvtXHJzKN0U4BnFKv1DSlEAUqHCoHHQBsR_Z_3zVL4xH6Lg7ZjIMC8qFI8ubEkFBU6lyHcGCs17vssjvTmC6p0jg4T5D_4l-7uRNoSKiy___oHr_wlqIswjCpjBm00">
+</div>
 Link para o repositório do arquivo utilizado: https://github.com/apache/ofbiz/blob/trunk/applications/accounting/src/main/java/org/apache/ofbiz/accounting/invoice/InvoiceWorker.java
-![Imagem do diagrama de classe](https://prnt.sc/z_NUbR9efnrY)
 
 #### informações estas que foram retiradas direto da documentação no site oficial: https://nightlies.apache.org/ofbiz/trunk/ofbiz/html5/user-manual.html#CORE_APPLICATION_COMPONENTS, https://nightlies.apache.org/ofbiz/trunk/ofbiz/html5/user-manual.html, https://cwiki.apache.org/confluence/display/OFBIZ/Scaling+and+Performance+Plan
 
