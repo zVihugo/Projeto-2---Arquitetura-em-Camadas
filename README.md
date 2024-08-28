@@ -124,6 +124,13 @@ manutenabilidade.
 - **Proposta**: Separação do código em diferentes grupos, a fim de terem claras interfaces de comunicação e criação de APIs RESTfull, a fim de abranger ainda mais a integração de seus serviços.
 - **Base de consulta:** https://aws.amazon.com/pt/compare/the-difference-between-monolithic-and-microservices-architecture/
 
+### 4.4 Estratégia de refatoração:
+
+- **Refatorar o código para modularização**: Apache OFBiz possui um código que possui um alto acoplamento, com interdependências entre os módulos que dificultam sua manutenção e evolução.
+- **Proposta**: Adotar uma abordagem de Domain-Driven Design (DDD) para refatorar o código base do Apache OFBiz. O DDD propõe a modelagem do sistema em torno dos conceitos principais do negócio, dividindo-o em Bounded Contexts, que representam domínios específicos e bem definidos dentro do sistema.
+- **Justificativa**:  A refatoração orientada a domínios melhora a organização do código, tornando-o mais intuitivo e fácil de entender para desenvolvedores que trabalham com diferentes partes do sistema. Temos também uma redução do acoplamento e também uma facilidade na escalabilidade, pois quando utilizamos o DDD preparamos o caminho para a transição para uma arquitetura de microsserviços.
+- **Base de consulta**: https://www.devmedia.com.br/java-e-domain-driven-design-na-pratica-java-magazine-87/19019 || https://elemarjr.com/clube-de-estudos/artigos/dominando-a-escalabilidade-integrando-ddd-clean-architecture-e-arquitetura-hexagonal/
+
 
 ## 5. Diagramas
 
